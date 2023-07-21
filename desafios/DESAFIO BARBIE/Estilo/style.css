@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merriweather&family=Playfair+Display&family=Raleway:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Barbie';
+    src: url('../fonte/Barbie.otf') format('opentype');
+    font-weight: normal;
+}
+
+* {
+    margin: auto;
+    padding: 0%;
+}
+
+
+
+:root {
+    --cor-do-texto: #ffffff;
+    --cor-de-fundo: #F08BBF;
+    --cor-de-titulo01: #6E4057;
+    --cor-de-titulo02: #EC419A;
+    --cor-caixa: #6E1F47;
+    --cor-main: #6e40575a;
+
+    --fonte1: 'Dancing Script', 'Arial', sans-serif;
+    --fonte2: 'Merriweather', 'Arial', serif;
+    --fonte3: 'Playfair Display', 'arial', serif;
+    --fonte4: 'Raleway', Arial, sans-serif;
+    --fonte-barbie: 'Barbie', Arial, serif;
+}
+
+header {
+top: 0;
+left: 0;
+width: 100%;
+background-color: var(--cor-main);
+height: 100px;
+z-index: 100;
+}
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto 0 0;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.menu-icon { 
+    position: absolute;
+    background-color: var(--cor-de-fundo);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    top: 28px;
+    cursor: pointer;
+    z-index: 200;
+    transition: 0.3s;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 30px;
+    top: 5px;
+    left: 5px;   
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+
+}
+
+ul {
+    margin: auto;
+    position: absolute;
+    width: 120px;
+    right: 20px;
+    top: 25px;
+    color: var(--cor-do-texto);
+    text-align: left;
+}
+
+div > ul {
+    display: none;
+}
+
+div:hover > ul {
+    display: block;
+}
+
+a {
+    color: var(--cor-do-texto);
+    font-family: var(--fonte4);
+}
+
+li > a {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li:hover > a {
+    background-color: var(--cor-caixa);
+    text-decoration: underline;
+    text-decoration-color: var(--cor-de-fundo);
+    text-decoration-style: wavy;
+    border-radius: 2px;
+}
+
+main {
+    background-color: #eba0c39f;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.319); 
+}
+
+p {
+    text-align: justify;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-indent: 30px;
+    line-height: 1.3em;
+}
+
+h1{
+    text-align: center;
+    font-family: var(--fonte3);
+    color:#5C5156;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: var(--fonte3);
+    color:var(--cor-do-texto);
+    background-image: linear-gradient(140deg, var(--cor-main), transparent);
+}
+
+span.titulo {
+    font-weight: lighter;
+    font-family: var(--fonte-barbie);
+    color: var(--cor-de-titulo02);
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.179);
+    font-style: italic;
+}
+
+span.title {
+    font-family: var(--fonte1);
+    color: black;
+    font-size: larger;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.283);
+}
+
+footer {
+    background-color: var(--cor-de-titulo02);
+    font-family: var(--fonte3);
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 5px;
+}
+
+footer p {
+    margin: 0px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: grab;
+}
+
+div{
+   width: 450px; 
+}
+
+aside {
+    background-color: var(--cor-main);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.295);
+    max-width: 750px;
+    min-width: fit-content;
+
+}
+
+img#imagem {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+}
+
+img.pequena {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+div.video {
+    background-color:var(--cor-caixa);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position: relative;
+    width: auto;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+
+
+

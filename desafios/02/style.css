@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #00F;
+   }
+   
+   a:hover {
+    color: #F00;
+   }
+
+#container {
+    margin: auto;
+    max-width: fit-content;
+    display: flex;
+}
+
+.col {
+    padding: 6px;
+}
+
+.card {
+    border: #000000;
+    border-radius: 8px;
+    padding: 0%;
+    overflow: hidden;
+    transition: all 0,4s linear;
+
+}
+
+.card img {
+    width: 350px;
+    display: inline-block;
+    opacity: 89%;
+    transition: all 0.15s linear;
+}
+
+.card:hover {
+    box-shadow: 0 0 8px #000000
+}
+
+.card:hover img {
+    scale: 1.1;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.page {
+    background-color: whitesmoke;
+    color: #444;
+    min-height: 100%;
+    h1{
+        text-shadow: 1px 5px 4px #151515;
+    }
+}
+
+#dark-mode-input {
+    display: none;
+}
+
+#dark-mode-input:checked ~ .card:hover {
+    box-shadow: 0 0 8px #eff3c0;
+}
+
+
+
+
+#dark-mode-input:checked ~ .page {
+    background-color: #151515;
+    color: #ffffff;
+
+}
+
+.dark-mode-button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.61);
+    border: 2px solid #151515;
+    border-radius: 50%;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+

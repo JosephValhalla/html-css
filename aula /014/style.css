@@ -1,0 +1,78 @@
+/*  
+        medidas absolutas
+        cm, mm in, px, pt e pc
+        
+        medidas relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente é 1em
+
+        lighter normal bold e bolder
+
+        shorthand font:
+        -font-style -> font-weight -> font-size ->  font-family
+
+        font-family:'work sans', sans-serif;
+        font-weigth:'normal';
+        font-size:'2em';
+        font-style:'italic';
+
+        em HTML é id = em CSS é # (só pode um elemento)
+        em HTML é class = em CSS é . (pode vários elementos)
+*/
+   
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+* {
+    text-decoration: none;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+body {
+    background-color: #73695C;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    left: 0px;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    color: #665B57;
+}
+
+.basic {
+    color: yellowgreen;
+    font-style: italic;
+    right: 0px;
+
+}
+
+h1#principal {
+    font-size: 3em;
+    background-color: #7D6F64;
+    box-shadow: 2px 2px 2px  #000000;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+h2 {
+    
+    text-align: left;
+    font-size: 1.2em;
+}
+
+p {
+
+    text-align: justify;
+    text-indent: 30px;
+    margin-right: 10px;
+
+}
+
+
+
+
+

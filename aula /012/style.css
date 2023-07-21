@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    padding: 1em 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.page {
+    background-color: whitesmoke;
+    color: #444;
+    min-height: 100%;
+}
+
+#dark-mode-input {
+    display: none;
+}
+
+#dark-mode-input:checked ~ .page {
+    background-color: #232323;
+    color: #ffffff;
+
+}
+
+.dark-mode-button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.61);
+    border: 2px solid #444;
+    border-radius: 50%;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+

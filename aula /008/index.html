@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 08</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <style>
+            body {
+                background-color: rgba(187, 43, 18, 0.464);
+            }
+        </style>
+        <marquee behavior="" direction="left">vamo fazer um bglh doido agora!!!</marquee>
+        <hr>
+        <h1>
+            Imagem dinamicas
+        </h1>
+        <code>
+            <p>
+                Vamo abrir essa parada em diversos dispositivos para ver como o site se adapta, ou você pode simplesmente aumentar e diminuir o navegador. Vamos lá, faz a experiencia ai.
+            </p>
+        </code>
+        <picture>
+            <source media="(max-width: 650px)" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+            <img src="imagens/imagem-g.png" alt="imagem flexivel">
+        </picture>
+        <h2>
+            Vamos aprender a reproduzir audios em html
+        </h2>
+        <audio src="media/musga.mp3" controls ></audio>
+        <audio src="media/musica pica.mp3" controls></audio>
+        <!--
+            essa é uma das formas de adicionar, agora aqui embaixo vou botar outra
+        -->
+        <audio preload="auto" controls>
+            <source src="media/musica delicinha.mp3" type="audio/mpeg">
+            <p>
+                Se seu navegador não conseguir reproduzir o audio, clique <a href="media/musica delicinha.mp3">AQUI</a> para baixar :)
+            </p>
+        </audio>
+        <center>
+            <h2>
+                Agora vamo meter um videozao nesse site rsrs
+            </h2>
+        </center>
+        <p>
+            Esse video esta hospedado localmente
+        </p>
+        <center>
+            <video src="media/flamengo.mp4" width="560" controls poster="logogostoso.png"></video>
+        </center>
+        <!--
+            A maneira acima não é a mais indicada na hora de colocar videos hospedados localmente, essa abaixo mais recomendada:
+
+            <video controls width="500">
+                <source src="media/flamengo.mp4" type="video/mp4">
+                <source src="media/flamengo.ogv" type="video/ogv">
+                <source src="media/flamengo.m4v" type="video/m4v"> 
+            </video>
+
+            Porém a melhor forma de inserir videos em sites é adicionando videos externos!
+        -->
+        <center>
+            <h2>
+                Metendo video do Youtube
+            </h2>
+        </center>
+        <iframe src="https://www.youtube.com/embed/x1la13cVXuY" frameborder="0" width="720" height="400"></iframe>
+        <!--
+            outra maneira de incorporar videos do youtube é dentro do proprio youtube, clicar em compartilhar e em incorporar, e pronto é só você copiar e colar no seu codigo! :)
+        -->
+        <center>
+            <h2>Metendo video do vimeo</h2>
+        </center>
+        <iframe src="https://player.vimeo.com/video/208639179?h=76c2109227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/208639179">This is Flamengo</a> from <a href="https://vimeo.com/salsadirectors">SALSA</a> on <a href="https://vimeo.com">Vimeo</a>.</p>   
+        <!--
+            a mesma coisa acontece com o vimeo! é só copiar e colar
+        -->
+ 
+    </body>
+</html>

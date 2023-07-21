@@ -1,0 +1,76 @@
+html, css {
+    width: 100%;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration:underline;
+    text-decoration-style: red;
+}
+
+/*
+a::after {
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+}
+*/
+
+div {
+    position: absolute;
+    top: 1%;
+}
+
+div > ul {
+    display: none;
+}
+
+div:hover > ul {
+    
+    display: block;
+    background-color: rgba(44, 44, 44, 0.355);
+    height: auto;
+    width: 100px;
+
+
+}
+
+.lebrao {
+    position: absolute;
+    left: 28%;
+    width: 300px;
+    border: solid 3px;
+    border-radius: 10px;
+
+}
+sub {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+sub:hover {
+
+    text-decoration: underline red;
+
+}

@@ -1,0 +1,47 @@
+/* 
+        medidas absolutas
+        cm, mm, in, px, pt, pc
+
+        medidas relativas
+        em, ex, rem, vw, vh, %
+        16px = 1em
+
+        recomendação oficial: px e em
+        */
+
+* {
+    /*height: 100%;*/
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+
+
+}
+
+
+body {
+    background-image: linear-gradient(to right, #F6BEB1, #D498CA);
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #ab7f7dbb;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #E9B1F6;
+    text-shadow: -2px 2px 5px#70516ba1;
+}
+
+
+
+p {
+    text-align: justify;
+}

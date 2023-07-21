@@ -1,0 +1,106 @@
+* {
+    margin: auto;
+
+}
+
+body {
+
+    background-color: tomato;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    padding: 0%;
+    margin: 10px;
+    background-color: whitesmoke;
+
+
+}
+
+
+nav {
+
+    padding: 0%;
+    left: 1px;
+
+}
+ul {
+    display: none;
+    list-style: none;
+    margin: auto;
+}
+
+nav:hover > ul {
+
+    display: block;
+    background-color: rgba(112, 128, 144, 0.441);
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 3px 7px 1px #000000;
+
+}
+
+h1 {
+
+    margin: 10px 10px;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.meupau {
+
+    color: blueviolet;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.menu {
+
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+main {
+
+    background-color: whitesmoke;
+    padding: 5px 5px;
+    margin: 10px;
+    border: 15px solid black;
+    border-image-source: url(borda.png);
+    border-image-slice: 35;
+    border-radius: 0px 20px;
+
+}
+
+footer {
+    padding: 1px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 0px -2px 10px rgba(47, 79, 79, 0.27);
+
+}
+
+div#bola{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
