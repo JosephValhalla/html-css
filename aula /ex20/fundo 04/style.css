@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: 200px;
+
+    height: 96.5vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div {
+    width: 200px;
+    border: 1px solid black;
+    height: 200px;
+    margin: auto;
+    background-image: url(../fundo\ 02/vincent.jpeg);
+    
+    background-position: center;
+}
