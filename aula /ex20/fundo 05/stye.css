@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 92.7vh;
+    background-image: url(../images/wallpaper002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    
+}
+
+main {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 0px 20px 0px;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.536);
+
+    background-image: linear-gradient( 125deg, red, darkslategray);
+
+    color: aliceblue;
+}
+
+main h1 {
+    color: black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.389);
+    margin-bottom: 20px;
+}
+
+main div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.415);
+    background-color: black;
+}
+
